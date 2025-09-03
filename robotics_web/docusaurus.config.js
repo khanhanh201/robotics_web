@@ -75,6 +75,18 @@ const config = {
     ],
   ],
 
+  plugins: [
+  [
+    '@docusaurus/plugin-content-docs',
+    {
+      id: 'projects',                // unique ID
+      path: 'projects',              // folder name
+      routeBasePath: 'projects',     // URL = /projects/...
+      sidebarPath: './sidebarsProjects.js', // separate sidebar config
+    },
+  ],
+],
+
   themeConfig:
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
@@ -95,6 +107,13 @@ const config = {
             label: 'Learning',
           },
           //{to: '/blog', label: 'Blog', position: 'left'},
+          {
+            type: 'docSidebar',
+            sidebarId: 'projectsSidebar',
+            docsPluginId: 'projects',   // link to our new plugin
+            position: 'left',
+            label: 'Projects',
+      },
           {
             href: 'https://github.com/facebook/docusaurus',
             label: 'GitHub',
