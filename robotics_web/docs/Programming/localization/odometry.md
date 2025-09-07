@@ -1,6 +1,6 @@
 ---
-id: control-schemes
-title: Các kiểu điều khiển
+id: odometry
+title: Odometry
 sidebar_position: 1
 ---
 

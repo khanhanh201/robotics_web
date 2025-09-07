@@ -1,5 +1,5 @@
 ---
 id: toggle
-title: Toggle
+title: Chuyển trạng thái (Toggle)
 sidebar_position: 2
 ---
