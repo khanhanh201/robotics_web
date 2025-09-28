@@ -1,0 +1,19 @@
+/* about.module.css */
+.about h1 {
+  font-size: 3.1rem;
+}
+
+.about h2 {
+  font-size: 2.7rem;
+}
+
+.about h3{
+    font-size: 2.5rem;
+}
+
+.about p{
+    font-size: 1.2rem;
+}
+.about ul {
+    font-size: 1.2rem;
+}
